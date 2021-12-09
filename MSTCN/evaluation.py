@@ -86,10 +86,10 @@ def f_score(recognized, ground_truth, overlap, bg_class=["background"]):
     return float(tp), float(fp), float(fn)
 
 
-def seg_eval(dataset, split, op):
+def seg_eval(dataset, split, op, method):
 
     result = dict()
-    recog_path        = "./results/{}/split_{}/{}/".format(dataset, split, op)
+    recog_path        = "./results/{}/split_{}/{}/".format(dataset, split, method)
     ground_truth_path = "../data/{}/groundTruth/".format(dataset)
     file_list         = "../data/{}/splits/test.split{}.bundle".format(dataset, split)
     
