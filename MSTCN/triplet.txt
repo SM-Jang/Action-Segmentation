@@ -1,0 +1,44 @@
+- Triplet1.py
+    Successive Selection
+    a video set
+    sequentially select a segment
+    divide 5 sets
+    center: anchor zone
+    else: positive zone
+    both sides: negative zone
+
+    python Triplet1.py
+
+- Triplet2.py
+    Supplement Selection
+    a video set
+    sequentially select a segment
+    anchor zone
+    both sides: 
+    negative zone
+    same action segments
+    positive zone
+
+    python Triplet2.py
+
+- triplet_main.py
+    Reorganization Selection
+    all videos in one dataset
+    𝑣=(𝑣_1,𝑣_2, …, 𝑣_𝑛 )
+    random select video and action
+    anchor zone(purple intersection)
+    same video, diff actions
+    negative zone (red row)
+    diff videos, same actions
+    positive zone (green column)
+
+    implementation detail:
+    # margin = 10.
+    # lr = 0.005
+    # num_epochs = 500
+
+    # if train the model, action='train'
+    python triplet_main.py
+
+    # if save the curvature, action='curvature'
+    python triplet_main.py
