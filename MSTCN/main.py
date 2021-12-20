@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     if args.action == 'eval':
         print(f'\n\t\tThe test scores of MS_TCN on {args.op}\n')
-        result = seg_eval(args.dataset, args.split, args.op)
+        result = seg_eval(args.dataset, args.split, args.op, args.method)
         result = pd.DataFrame(list(result.items()),
                            columns=['metrics', 'scores'])
 
