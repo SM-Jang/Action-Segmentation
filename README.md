@@ -14,7 +14,7 @@
 we used I3D features from https://github.com/yabufarha/ms-tcn
 
 # 3. Backbone:
-MS-TCN, MS-TCN++, ASRF, ASFormer
+Most of the codes are copied from 
 - [MS-TCN](https://github.com/yabufarha/ms-tcn)
 - [MS-TCN++](https://github.com/sj-li/MS-TCN2)
 - [ASRF](https://github.com/yiskw713/asrf)
