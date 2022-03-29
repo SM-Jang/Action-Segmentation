@@ -15,4 +15,5 @@ MS-TCN, MS-TCN++, ASRF, ASFormer
 - ASFormer https://github.com/ChinaYi/ASFormer
 
 4. Result
+![캡처](/uploads/gtea.PNG)
 5. 
