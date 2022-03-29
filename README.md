@@ -2,6 +2,7 @@
 - A novel video feature enhancement
 - No additional temporal information
 - Relieve under-segmentation and correct misprediction
+
 ![effect](https://user-images.githubusercontent.com/74584105/160569533-1fd845f0-ff69-46fb-a73d-c47e961d82b7.png)
 
 # 1. Installation
