@@ -9,6 +9,7 @@ GTEA, 50salads, Breakfast
 we used I3D features from https://github.com/yabufarha/ms-tcn
 
 3. Backbone:
+
 MS-TCN, MS-TCN++, ASRF, ASFormer
 - MS-TCN   https://github.com/yabufarha/ms-tcn
 - MS-TCN++ https://github.com/sj-li/MS-TCN2
@@ -16,6 +17,10 @@ MS-TCN, MS-TCN++, ASRF, ASFormer
 - ASFormer https://github.com/ChinaYi/ASFormer
 
 4. Result
-![gtea](https://user-images.githubusercontent.com/74584105/160565755-ecb55bc0-1b96-490a-930d-251915699156.png)
-![50salads](https://user-images.githubusercontent.com/74584105/160565758-43fd733d-cceb-4a0b-a1e0-454f458050d5.png)
-![breakfast](https://user-images.githubusercontent.com/74584105/160565760-fba120fe-6d4b-4637-9922-f27ed36c9d0b.png)
+|GTEA|내용|설명|
+|:---:|:---:|:---:|
+|Method|F1@10|F1@25|F1@50|Edit|Acc|
+|MS-TCN|87.5|85.4|74.6|81.4|79.2|
+|MS-TCN(our impl.)|87.5|85.4|74.6|81.4|79.2|
+|MS-TCN + TCF|87.5|85.4|74.6|81.4|79.2|
+|Gain|87.5|85.4|74.6|81.4|79.2|
