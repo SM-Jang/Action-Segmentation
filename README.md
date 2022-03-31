@@ -7,7 +7,7 @@
 
 # 1. Installation
 - python 3.7.10  
-- pytorch=='1.5.0'
+- pytorch 1.5.0
 
 # 2. Dataset(GTEA, 50salads, Breakfast)
 ![dataset](https://user-images.githubusercontent.com/74584105/160568902-23d72990-319b-4d9d-bde0-db35842f7f0b.png)
